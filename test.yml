@@ -1,0 +1,15 @@
+swagger: '2.0'
+     securityDefinitions:
+       a:
+         type: oauth2
+         authorizationUrl: javascript:alert(brutelogic.com.br)//
+     info:
+       version: "0.0.1"
+       title: Swagger UI
+       description: Please Authorize!
+     paths:
+       /:
+         get:
+           responses:
+             200:
+               description: Successful response
